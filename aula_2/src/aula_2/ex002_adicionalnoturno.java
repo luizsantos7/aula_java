@@ -22,7 +22,7 @@ public class ex002_adicionalnoturno {
 		
 		float salario_final = (salario + add_noturno +(hr_extra*5)) - desconto;
 		
-		System.out.printf("RESUMO SALARIAL\n\nSalario Bruto:%.2f\nQUANTIDADE DE HORAS EXTRAS:%.2f\nDescontos:%.2f\nSalario final: %.2f",salario,hr_extra,desconto,salario_final);
+		System.out.printf("RESUMO SALARIAL\n\nSalario Bruto:%.2f\nQUANTIDADE DE HORAS EXTRAS:%.0f\nDescontos:%.2f\nSalario final: %.2f",salario,hr_extra,desconto,salario_final);
 
 	}
 
