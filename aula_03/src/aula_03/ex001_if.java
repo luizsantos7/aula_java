@@ -69,7 +69,7 @@ public class ex001_if {
 					System.out.println("Parabéns, foi lhe escolhido Pulga");
 				}
 				else if(fome.equalsIgnoreCase("Herbivoro")) {
-					System.out.println("Parabéns, foi lhe escolhido Largato");
+					System.out.println("Parabéns, foi lhe escolhido Largata");
 				}
 				else {
 					System.out.println("Invalido, preenchimento incorreto");
