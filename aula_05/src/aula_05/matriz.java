@@ -11,7 +11,7 @@ public class matriz {
 		
 		Scanner leia = new Scanner(System.in);
 		
-		/*for(int linha = 0;linha < matriz.length;linha++) {
+		for(int linha = 0;linha < matriz.length;linha++) {
 			for(int coluna = 0;coluna< matriz.length;coluna++) {
 				System.out.printf("\nMATRIZ [%d][%d] = %d\n", linha, coluna, matriz[linha][coluna]);
 			}
@@ -28,7 +28,7 @@ public class matriz {
 			for(var valor : vetor) {
 				System.out.println("Exibir posição atual: "+valor);
 			}
-		}*/
+		}
 		
 		for(int linha = 0;linha < matrizIrregular.length;linha++) {
 			for(int coluna = 0;coluna< matrizIrregular[linha].length;coluna++) {

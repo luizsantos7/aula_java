@@ -28,7 +28,7 @@ public class cinema {
 		}
 		
 		System.out.println("ASSENTOS OCUPADOS: "+ocupado);
-		System.out.println("ASSENTOS LIVRES: "+livres);
+		System.out.println("ASSENTOS LIVRES: ");
 	}
 
 }
