@@ -17,7 +17,7 @@ public class ex001_fila {
 			do {
 				System.out.println();
 				System.out.println("===== MENU =====");
-				System.out.println("1: Adicionar um novo Cliente na fila. Deve solicitar o nome do Cliente.");
+				System.out.println("1: Adicionar um novo Cliente na fila.");
 				System.out.println("2: Listar todos os Clientes na fila.");
 				System.out.println("3: Chamar uma pessoa da fila.");
 				System.out.println("0: O programa deve ser finalizado.");
@@ -56,18 +56,20 @@ public class ex001_fila {
 					System.out.println("Quantas pessoas deseja chamar?");
 					int num = leia.nextInt();
 					
-					if (!fila.isEmpty()) {
-						int guiche =0;
-						for (int x = 0; x != num; x++) {
-							guiche++;
-							System.out.println("\nPor favor "+ fila.poll() + " compareça ao guichê: " + guiche);
-						}
-					}
-					else if (fila.size() != num) {
+					if (fila.size() != num) {
 						System.out.println("\nPessoas insuficientes para chamar");
 					}
-					else if (fila.isEmpty()) {
-						System.out.println("\nFila vazia!");
+					else {
+						if (!fila.isEmpty()) {
+							int guiche =0;
+							for (int x = 0; x != num; x++) {
+								guiche++;
+								System.out.println("\nPor favor "+ fila.poll() + " compareça ao guichê: " + guiche);
+							}
+						}
+						else if (fila.isEmpty()) {
+							System.out.println("\nFila vazia!");
+						}
 					}
 				}
 				
