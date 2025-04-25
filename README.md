@@ -21,7 +21,7 @@ O repositório está organizado em diretórios por aula, contendo exemplos de:
 - Pacotes  
 - Outros conceitos conforme avanço do curso  
 
-## Atalhos 🧩
+## 🧩 Atalhos 
 
 - [Sysout Hello World || Aula-1](https://github.com/luizsantos7/aula_java/tree/main/helloworld)
 - [Operadores Unários || Aula-2](https://github.com/luizsantos7/aula_java/tree/main/aula_2/src/aula_2)
