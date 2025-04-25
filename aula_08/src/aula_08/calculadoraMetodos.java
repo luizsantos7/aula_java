@@ -23,7 +23,7 @@ public class calculadoraMetodos {
 			System.out.println("4 - Dividir");
 			System.out.println("0 - Sair");
 			System.out.println("********************************************");
-			System.out.println("Qual operção matemática você deseja executar?");
+			System.out.println("Qual operção matemática você deseja executar ?");
 			opcao = leia.nextInt();
 			
 			if(opcao == 0) {
@@ -31,11 +31,14 @@ public class calculadoraMetodos {
 				System.exit(0);
 			}
 			
+			if (num2== 0 && opcao == 4) {
+				System.out.println("0 não é ultilizado como divisor!");
+			}
+			
 			switch(opcao) {
 				case 1 -> System.out.printf("\n%.2f+%.2f = %.2f\n",num1,num2,somar(num1,num2));
 				case 2 -> System.out.printf("\n%.2f+%.2f = %.2f\n",num1,num2,subtrair(num1,num2));
 				case 3 -> System.out.printf("\n%.2f+%.2f = %.2f\n",num1,num2,multiplicar(num1,num2));
-				case 4 -> System.out.printf("\n%.2f+%.2f = %.2f\n",num1,num2,dividir(num1,num2));
 				default -> System.out.println("opção invalida");
 			}
 		}
