@@ -5,12 +5,12 @@ Repositório de estudos em Java com exemplos práticos desenvolvidos durante as 
 ## 🛠️ Tecnologias utilizadas
 
 - Java 17+
-- IDE: IntelliJ IDEA / Eclipse (ou sua IDE preferida)
+- IDE: Spring Tool Suite4
 - Git e GitHub
 
 ## 📁 Estrutura do Projeto
 
-O repositório está organizado em diretórios por aula ou tema, contendo exemplos de:
+O repositório está organizado em diretórios por aula, contendo exemplos de:
 
 - Variáveis e Tipos Primitivos  
 - Operadores  
